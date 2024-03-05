@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App nav a {
+  margin: 20px;
+  
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
