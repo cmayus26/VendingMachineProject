@@ -1,18 +1,19 @@
+
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import VendingMachine from './VendingMachine';
-
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
 
 const App = () => {
   return (
     <Router>
-      <main className="App">
-        <Route exact path="/" component={VendingMachine} />
-      </main>
+      <div className="App">
+    
+        <Routes />
+      </div>
     </Router>
   );
 };
 
 export default App;
+
 
